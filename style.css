@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    
+    background-color:  hsl(0, 0%, 98%);
+    margin: auto;
+    font-size: 15px;
+    font-family: 'poppins', sans-serif;
+}
+
+.container_textos{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.textos{
+     display: block;
+    text-align: center;    
+}
+.titulo_principal{
+    font-size: 30px;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);
+}
+.titulo_secundario{
+    font-size: 30px;
+    font-weight: 600;
+    color:hsl(234, 12%, 34%)
+}
+.parrafo{
+    color:hsl(229, 6%, 66%);
+    padding:20px 400px;
+
+}
+.container_cards{
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding:0 80px 50px
+    
+}
+.container_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.container_center{
+    margin:0 25px;
+}
+
+.container_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card_1{
+    border-top: 5px solid  hsl(180, 62%, 55%);
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+   
+}
+.card_2{
+    border-top: 5px solid hsl(0, 78%, 62%);
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
+}
+.card_3{
+    border-top: 5px solid  hsl(34, 97%, 64%);
+    background-color: white;
+    border-radius: 5px;
+    width: 400px;
+    margin-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    
+    
+}
+.card_4{
+    border-top: 5px solid  hsl(212, 86%, 64%);
+    background-color: white;
+    border-radius: 5px;
+    width: 400px; 
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.titulo_card{
+    padding:30px 40px 10px 30px;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 22px;
+}
+.p_card{
+    padding:0 40px 30px 30px;
+    color:hsl(229, 6%, 66%);
+}
+.img{
+    text-align: right;
+    margin-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 30px;
+}
+footer{
+    text-align: center;
+}
+    
+
+    
